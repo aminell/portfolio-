@@ -71,20 +71,4 @@ document.addEventListener('DOMContentLoaded', () => {
             navbar.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
         }
     });
-
-    // Add hover effect to project cards
-    const projectCards = document.querySelectorAll('.project-card');
-    projectCards.forEach(card => {
-        card.addEventListener('mouseenter', () => {
-            card.style.transition = 'all 0.3s ease';
-        });
-    });
-
-    // Add hover effect to skill items
-    const skillItems = document.querySelectorAll('.skill-item');
-    skillItems.forEach(item => {
-        item.addEventListener('mouseenter', () => {
-            item.style.transition = 'all 0.3s ease';
-        });
-    });
 });
