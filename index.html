@@ -1,50 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Portfolio - Amine Larbi</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
+    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 30px;">
+        <div style="text-align: center; flex: 2;">
+            <h1>Amine Larbi</h1>
+            <p>Étudiant débutant en 1ère année BUT Informatique</p>
+            <p><a href="mailto:larbi.amine944@gmail.com">larbi.amine944@gmail.com</a></p>
+        </div>
+        <div style="text-align: right; flex: 1;">
+            <p><strong>Certification en cours :</strong><br>PCEP – Certified Entry-Level Python Programmer</p>
+        </div>
+    </div>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">Portfolio</div>
             <ul class="nav-menu">
-                <li><a href="#presentation" class="nav-link">Présentation</a></li>
-                <li><a href="#projets" class="nav-link">Projets</a></li>
-                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a class="nav-link" href="#presentation">Présentation</a></li>
+                <li><a class="nav-link" href="#projets">Projets</a></li>
+                <li><a class="nav-link" href="#competences">Compétences</a></li>
             </ul>
         </div>
     </nav>
-    <!-- Presentation Section -->
-    <section id="presentation" class="section presentation-section">
-        <div class="container">
-            <div class="presentation-content fade-in" style="display: flex; justify-content: space-between; align-items: center; gap: 2rem;">
-                <div style="flex: 1; text-align: center;">
-                    <h1 class="name">Amine Larbi</h1>
-                    <p class="cursus">Étudiant débutant en 1ère année BUT Informatique</p>
-                    <br>
-                    <div class="contact-info">
-                        <a href="mailto:larbi.amine944@gmail.com" class="contact-link">
-                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                <polyline points="22,6 12,13 2,6"></polyline>
-                            </svg>
-                            larbi.amine944@gmail.com
-                        </a>
-                    </div>
-                </div>
-                <div style="flex: 1; text-align: right;">
-                    <p class="certification">Certification en cours :<br>
-PCEP – Certified Entry-Level Python Programmer</p>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- Projects Section -->
-    <section id="projets" class="section projets-section">
+    <section class="section projets-section" id="projets">
         <div class="container">
             <h2 class="section-title">Projets</h2>
             <div class="projets-grid">
@@ -53,7 +38,7 @@ PCEP – Certified Entry-Level Python Programmer</p>
         </div>
     </section>
     <!-- Skills Section -->
-    <section id="competences" class="section competences-section" style="text-align:center;">
+    <section class="section competences-section" id="competences" style="text-align:center;">
         <div class="container">
             <h2 class="section-title">Compétences</h2>
             <div class="competences-grid">
